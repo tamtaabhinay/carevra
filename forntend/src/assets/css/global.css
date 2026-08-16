@@ -1,0 +1,22 @@
+:root {
+  --color-grey: #32292f;
+  --color-white: #ffffff;
+  --color-primary: #232022;
+
+  --bg-mint-cream: #f0f7f4;
+  --bg-pine-blue: #43777b;
+  --bg-pearl-aqua: #99e1d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
+}
+
+.header-toolbar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
