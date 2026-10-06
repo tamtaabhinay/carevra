@@ -1,0 +1,34 @@
+:root {
+  --mainTextColor: #292929;
+  --secondryTextColor: #ffffff;
+  --mainBgColor: #084132;
+  --secondryBgColor: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--mainTextColor);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--mainTextColor);
+  box-sizing: border-box;
+}
+
+.main-hero-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    120deg,
+    #efe6da 0%,
+    #e5d7ca 16.667%,
+    #dac7b9 33.333%,
+    #cfb6a9 50%,
+    #c4a699 66.667%,
+    #b9968b 83.333%,
+    #af887e 100%
+  );
+}
