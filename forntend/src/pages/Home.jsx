@@ -7,7 +7,7 @@ const Home = () => {
       <section>
         <HomePageBanner />
       </section>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ height : "100vh" }}>
         <h1>Home</h1>
       </Container>
     </Box>
